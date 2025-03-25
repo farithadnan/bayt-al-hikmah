@@ -1,5 +1,5 @@
 ---
-title: Dynamic Connectivity Problem
+title: Design Pattern
 draft: false
 tags:
   - SE
