@@ -1,0 +1,10 @@
+name = "quartz-worker"
+compatibility_date = "2025-03-25"
+
+[build]
+command = "npm run build" # Adjust this if Quartz has a specific build command
+upload = { dir = "./dist", main = "index.js" } # Ensure this path is correct
+
+[[services]]
+binding = "QUARTZ"
+service = "quartz-worker"
