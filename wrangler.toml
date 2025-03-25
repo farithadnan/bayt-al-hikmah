@@ -1,6 +1,6 @@
 name = 'bayt-al-hikmah'
 compatibility_date = "2025-03-25"
-main = "src/index.ts"
+main = "index.d.ts"
 
 [build]
 command = "npx quartz build" # Adjust this if Quartz has a specific build command
