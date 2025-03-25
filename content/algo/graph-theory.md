@@ -2,7 +2,6 @@
 title: Graph Theory
 draft: false
 tags:
-  - sprout
   - algorithms
 ---
 
@@ -10,6 +9,7 @@ In **graph theory**, a **graph** is a mathematical structure used **to model rel
 
 > [!example] **Graph in Real Life**  
 > Some real-life examples of graphs include:
+>
 > - **Social Networks**: People represent **vertices**, and the connections (e.g., friendships or followers) represent **edges**.
 > - **Transportation Networks**: Locations (e.g., cities or train stations) represent **vertices**, and the roads, train tracks, or flight routes connecting them represent **edges**.
 > - **Internet**: Websites represent **vertices**, and the hyperlinks or data connections between them represent **edges**.

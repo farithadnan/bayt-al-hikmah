@@ -2,7 +2,6 @@
 title: Dynamic Connectivity Problem
 draft: false
 tags:
-  - sprout
   - algorithms
 ---
 
@@ -44,14 +43,14 @@ Initially, each element is in its own component, meaning `id[i] = i` for all `i`
 
 Based on above image, consider an example where `id[]` initially looks like this:
 
-```
+```sh
 data = [0 1 2 3 4 5 6 7 8 9]
 id[] = [0 1 2 3 4 5 6 7 8 9]
 ```
 
 After performing `union(0, 5)`, `union(5, 6)`, `union(1, 2)`, `union(2, 7)`, `union(3, 4)`,  `union(4, 8)` and `union(8, 9)`, the array transforms into:
 
-```
+```sh
 data = [0 1 2 3 4 5 6 7 8 9]
 id[] = [0 1 1 8 8 0 0 1 8 8]
 ```
@@ -63,6 +62,7 @@ From this, we can determine connected components:
 - `{3, 4, 8, 9}` belong to the same component.
 
 Below is the Java implementation of Quick-Find:
+
 ```java
 public class QuickFindUF {
     private int[] id;
@@ -117,6 +117,7 @@ More details about quick-union:
 Below is the Java implementation of Quick-Union:
 
 > [!NOTE] How it works
+>
 > - The `id` array forms a **forest of trees**, where each tree represents a connected component.
 > - **Union** merges two trees by linking one root to the other, while **connected** checks whether two elements belong to the same tree by comparing their roots.
 
@@ -162,10 +163,10 @@ private class QuickUnionUF
 	    2. Update the `id` array to make one root point to the other (i.e., `id[i] = j`).
 
 > [!NOTE] Time Complexity
+>
 > - **Find (`root`)**: `O(N)` in the worst case, as the tree can become very tall.
 > - **Union**: `O(N)`, since it depends on the `root()` operation.
 > - **Connected**: `O(N)`, as it also relies on the `root()` method.
-
 
 ![[quick-union-also-too-slow.png|center|400x330]]
 <center><i>Quick Union Also too slow</i></center>

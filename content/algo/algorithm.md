@@ -2,7 +2,6 @@
 title: Algorithm
 draft: false
 tags:
-  - sprout
   - algorithms
 ---
 
