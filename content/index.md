@@ -2,9 +2,21 @@
 title: Home
 draft: false
 tags:
-  - sprout
+  - homepage
 ---
 
-<img src="https://images.unsplash.com/photo-1518699086072-d567cb15b483?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Banner" style="width: 100%; height: 160px; object-fit: cover; object-position: bottom; display: block; margin: 0 auto; border-radius: 8px;">
+> *"The mind is not a vessel to be filled but a fire to be kindled." — Plutarch*
 
-This is my digital garden, the name is inspired by the legendary Bayt al-Hikmah library. Here, I jot down thoughts, notes, and things I find interesting. Mostly dev stuff, sometimes AI, and random topics from other fields. It’s less of a blog, more of a personal knowledge base.
+![banner](./images/sky-tree.jpg)
+
+Welcome to my digital garden, the name is inspired by the legendary [Bayt al-Hikmah](https://www.britannica.com/place/Bayt-al-Hikmah). Here, I collect thoughts, notes, and things I find interesting— mostly on web development, sometimes AI, and whatever else sparks curiosity. It’s not really a blog, just a place to store and share what I learn.
+
+---
+
+## 🌳 Where to Start?
+
+Here are some notes you might find interesting:
+
+- [Algorithm](./algo/algorithm.md)
+-
+-
