@@ -7,7 +7,7 @@ tags:
 
 ![[rxjs_logo.png|center|100x100]]
 
-**RxJS**[^1]  (Reactive Extensions for JavaScript) is a library for **reactive programming** that enables handling **[[Asynchronous|asynchronous]] data streams (observables)** and **event-based actions**. It is widely used in frameworks like **Angular** but can be integrated into any JavaScript application. Essentially, it provides a powerful way to work with asynchronous events and data flows in a more **manageable and composable** manner.
+**RxJS** [^1]  (Reactive Extensions for JavaScript) is a library for **reactive programming** that enables handling **[[Asynchronous|asynchronous]] data streams (observables)** and **event-based actions**. It is widely used in frameworks like **Angular** but can be integrated into any JavaScript application. Essentially, it provides a powerful way to work with asynchronous events and data flows in a more **manageable and composable** manner.
 
 📌 Essential concepts in RxJS:
 
