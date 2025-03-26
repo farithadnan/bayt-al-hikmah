@@ -8,7 +8,7 @@ tags:
 **Observables** [^1] are collections of data, **streams of data**, or event sources that **emit values over time**, allowing you to **react to new or updated values asynchronously** by **subscribing** to them (**subscription**). In this context, data can come in **various forms** or **different data types**.
 
 > [!IMPORTANT] Example in real life
-Imagine **YouTube Live Streaming** 🎥
+> Imagine **YouTube Live Streaming** 🎥
 >
 > - The streamer (Observable) **emits** data (video frames).
 > - Viewers (Subscribers) **receive** the data in real time.
