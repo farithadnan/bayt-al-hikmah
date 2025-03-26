@@ -16,5 +16,5 @@ Welcome to my digital garden, the name is inspired by the legendary [Bayt al-Hik
 Here are some notes you might find interesting:
 
 - [Algorithm](./algo/algorithm.md)
-- [Design Principle](./SE/design-principle.md)
-- [Design Pattern](./SE/design-pattern.md)
+- [Design Principle](./se/design-principle.md)
+- [Design Pattern](./se/design-pattern.md)

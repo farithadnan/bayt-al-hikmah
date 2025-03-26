@@ -2,7 +2,7 @@
 title: Design Principle
 draft: false
 tags:
-  - SE
+  - se
 ---
 
 ![banner](https://images.unsplash.com/photo-1533928298208-27ff66555d8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFsYW5jZSUyMHNjYWxlfGVufDB8fDB8fHww)
