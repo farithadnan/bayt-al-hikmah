@@ -19,3 +19,9 @@ tags:
 6. **[[Schedulers]]**: manage the timing and order of tasks, letting us control when actions run on various timing when using mechanism like `setTimeout`, `requestAnimationFrame`, or others.
 
 RxJS is ideal for applications that handle asynchronous data streams, such as UI elements reacting to user inputs over time.
+
+---
+
+## 🔗 Sources
+
+[^1]: [RxJS](https://rxjs.dev/guide/overview)
