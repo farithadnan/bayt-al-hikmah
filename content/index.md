@@ -18,3 +18,4 @@ Here are some notes you might find interesting:
 - [Algorithm](./algo/algorithm.md)
 - [Design Principle](./se/design-principle.md)
 - [Design Pattern](./se/design-pattern.md)
+- [RxJS](./se/rxjs.md)
