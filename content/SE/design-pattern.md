@@ -22,15 +22,15 @@ tags:
 > *"How objects are created"*
 
 1. **[[Singleton]]**
-    – Ensures only one instance of a class exists and provides a way to access it globally.
+    - Ensures only one instance of a class exists and provides a way to access it globally.
     - Useful for managing configurations or logging.
 
 2. **[[Factory Method]]**
-    – Provides a flexible way to create objects without specifying their exact class.
+    - Provides a flexible way to create objects without specifying their exact class.
     - Useful when dealing with multiple related object types.
 
 3. **[[Builder]]**
-    – Helps create complex objects step by step.
+    - Helps create complex objects step by step.
     - Useful when an object has many optional parts.
 
 ### **Structural Patterns**
@@ -38,26 +38,28 @@ tags:
 > *"How objects are organized"*
 
 1. **[[Adapter]]**
-    – Allows two incompatible interfaces to work together.
+    - Allows two incompatible interfaces to work together.
     - e.g., *Like a power plug adapter that makes a foreign device work in a local socket.*
 2. **[[Composite]]**
-    – Lets you treat a group of objects the same way as a single object.
+    - Lets you treat a group of objects the same way as a single object.
     - e.g., *Useful for representing tree structures like UI components.*
 3. **[[Decorator]]**
-    – Adds new functionality to an object without modifying its original structure.
+    - Adds new functionality to an object without modifying its original structure.
     - e.g., *Like adding extra features to a car without redesigning it.*
 
-### **Behavioral Patterns** (How objects communicate)
+### **Behavioral Patterns** 
+
+> *How objects communicate*
 
 1. **[[Observer]]**
-    – Allows multiple objects to react when one object changes.
+    - Allows multiple objects to react when one object changes.
     - e.g., *Like a notification system where many users receive updates.*
 2. **[[Strategy]]**
-    – Lets you switch between different algorithms without changing the main code.
+    - Lets you switch between different algorithms without changing the main code.
     - e.g., *Like choosing different payment methods in an online store.*
 3. **[[Command]]**
-    – Encapsulates a request as an object, making it easy to queue, log, or undo actions.
-    - *Like storing a list of actions in a video game to allow undo/redo.*
+    - Encapsulates a request as an object, making it easy to queue, log, or undo actions.
+    - e.g., *Like storing a list of actions in a video game to allow undo/redo.*
 
 ---
 
