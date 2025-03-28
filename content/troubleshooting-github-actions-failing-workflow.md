@@ -7,7 +7,7 @@ tags:
 
 ![banner](https://images.unsplash.com/photo-1591608516485-a1a53df39498?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2l0aHVifGVufDB8fDB8fHww)
 
-If your GitHub Actions workflow fails to trigger or execute properly, follow these steps to diagnose and fix the issue.
+Guides incase your GitHub Actions workflow fails to trigger or execute properly, use these steps to diagnose and fix the issue.
 
 ## 1️⃣ Check If the Tag Exists on Remote
 
@@ -36,13 +36,13 @@ git push origin v1.0.1  # Push it again
 
 ## 3️⃣ Verify GitHub Actions Settings
 
-### ➤ Ensure Actions Are Enabled
+### Ensure Actions Are Enabled
 
 1. **Go to:** `Settings` → `Actions`
 2. Under `General`, ensure that **"Allow all actions and reusable workflows"** is selected.
 3. If restrictions apply, ensure the repository or organization allows workflow execution.
 
-### ➤ Check Repository Permissions
+### Check Repository Permissions
 
 1. **Go to:** `Settings` → `Actions` → `General`
 2. Under `Workflow permissions`, ensure **"Read and write permissions"** is enabled.
@@ -53,7 +53,7 @@ git push origin v1.0.1  # Push it again
 
 If `GITHUB_TOKEN` has permission issues (403 errors), create a **Personal Access Token (PAT)**:
 
-### ➤ Create PAT
+### Create PAT
 
 1. **Go to:** `GitHub → Settings → Developer Settings → Personal Access Tokens`
 2. Click **"Generate new token (classic)"**
@@ -62,7 +62,7 @@ If `GITHUB_TOKEN` has permission issues (403 errors), create a **Personal Access
    - `workflow` (for actions access)
 4. Generate the token and **copy it** (you won’t see it again!)
 
-### ➤ Use PAT in GitHub Actions
+### Use PAT in GitHub Actions
 
 1. **Go to:** `GitHub → Your Repo → Settings → Secrets and Variables → Actions`
 2. Click **"New repository secret"**
@@ -80,4 +80,4 @@ If `GITHUB_TOKEN` has permission issues (403 errors), create a **Personal Access
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 ```
 
-Now, pushing a tag should trigger the workflow successfully!
+Now, pushing a tag should trigger the workflow successfully.
