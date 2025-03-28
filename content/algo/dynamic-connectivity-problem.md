@@ -22,7 +22,7 @@ Both operations are crucial because:
 > [!NOTE] Connected Components
 > **Connected component** is a set of objects/nodes that are connected to one another. As you can see the image below it shows three connected components: _{0}, {1, 2, 3, 4}, {5, 6, 7, 8}_ .
 >
-> ![[connected-component.png|center|auto]]
+> ![[connected-component.webp|center|auto]]
 > <center><i>Connected Componentes</i></center>
 
 ## Quick Find (Eager Approach)
@@ -38,7 +38,7 @@ Initially, each element is in its own component, meaning `id[i] = i` for all `i`
 1. **Connected(p, q)**: This operation checks if two elements `p` and `q` are connected by simply comparing their component identifiers. If `id[p] == id[q]`, then they are connected; otherwise, they are not.
 2. **Union(p, q)**: This operation merges the components of `p` and `q` by changing all entries in `id[]` that match `id[p]` to `id[q]`. This effectively connects all elements in the same component as `p` to `q`'s component.
 
-![[quick-find.png|center|400x300]]
+![[quick-find.webp|center|400x300]]
 <center><i>Quick Find</i></center>
 
 Based on above image, consider an example where `id[]` initially looks like this:
@@ -104,7 +104,7 @@ While Quick-Find provides an intuitive way to handle connectivity problems, its 
 - Root of element `i` is `id[id[id[...id[i]...]]]`
 - Two elements are considered connected if they share the same root.
 
-![[quick-union.png|center|400x300]]
+![[quick-union.webp|center|400x300]]
 <center><i>Quick Union</i></center>
 
 More details about quick-union:
@@ -168,7 +168,7 @@ private class QuickUnionUF
 > - **Union**: `O(N)`, since it depends on the `root()` operation.
 > - **Connected**: `O(N)`, as it also relies on the `root()` method.
 
-![[quick-union-also-too-slow.png|center|400x330]]
+![[quick-union-also-too-slow.webp|center|400x330]]
 <center><i>Quick Union Also too slow</i></center>
 
 This basic Quick-Union implementation is simple but inefficient for large datasets because the taller the tree, the slower it gets. Enhancements like **path compression** (flattening trees during `root()` calls) and **union by rank** (keeping trees balanced) can significantly improve performance.
