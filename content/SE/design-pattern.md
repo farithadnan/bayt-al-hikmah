@@ -47,7 +47,7 @@ tags:
     - Adds new functionality to an object without modifying its original structure.
     - e.g., *Like adding extra features to a car without redesigning it.*
 
-### **Behavioral Patterns** 
+### **Behavioral Patterns**
 
 > *How objects communicate*
 

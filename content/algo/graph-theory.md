@@ -17,6 +17,7 @@ In **graph theory**, a **graph** is a mathematical structure used **to model rel
 ## [[./basic-concept-of-graph-theory.md|Basic of Graph Theory]]
 
 Here are the basic concepts in graph theory:
+
 - [[./basic-concept-of-graph-theory.md#Vertex, Vertices|Vertex]]
 - [[./basic-concept-of-graph-theory.md#Edges or Links|Edge]]
 - [[./basic-concept-of-graph-theory.md#Loops|Loop]]

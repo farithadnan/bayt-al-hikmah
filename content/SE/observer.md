@@ -23,6 +23,7 @@ const observer = {
 This observer can then be used to subscribe to an Observable, listening for values, errors, or completion signals.
 
 ---
-# Sources
+
+## 🔗 Sources
 
 [^1]: [RxJS - Observer](https://rxjs.dev/guide/observer)

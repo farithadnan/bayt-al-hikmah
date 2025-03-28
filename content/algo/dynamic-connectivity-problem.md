@@ -121,7 +121,6 @@ Below is the Java implementation of Quick-Union:
 > - The `id` array forms a **forest of trees**, where each tree represents a connected component.
 > - **Union** merges two trees by linking one root to the other, while **connected** checks whether two elements belong to the same tree by comparing their roots.
 
-
 ```java
 private class QuickUnionUF 
 {
@@ -158,9 +157,9 @@ private class QuickUnionUF
 - The `root()` method finds the **root** of a given element `i` by following its parent pointers (`id[i]`) until it reaches a node that points to itself (the root).
 - The `connected()` method checks if two elements `p` and `q` are in the same connected component by comparing their roots. If their roots are the same, they are connected.
 - The `union()` method connects two components by **making the root of one component point to the root of the other**.
-	- Specifically:
-	    1. Find the roots of `p` and `q` using the `root()` method.
-	    2. Update the `id` array to make one root point to the other (i.e., `id[i] = j`).
+      - Specifically:
+        1. Find the roots of `p` and `q` using the `root()` method.
+        2. Update the `id` array to make one root point to the other (i.e., `id[i] = j`).
 
 > [!NOTE] Time Complexity
 >

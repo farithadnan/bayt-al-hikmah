@@ -15,11 +15,11 @@ This note explains the fundamental terminology and basic concepts of [[graph-the
 >
 > - **Vertex**: Single dot, node or object in a graph.
 > - **Vertices**: More than one dots, nodes, or object in a graph.
-> - **Vertices** is the plural form (multiple dots or nodes) of "vertex". 
+> - **Vertices** is the plural form (multiple dots or nodes) of "vertex".
 
 ## Edges or Links
 
-**Edges** are the lines that represent connection between vertices, you can imagine it this way. A vertex is an island, while vertices are multiple islands, and edges are the bridges connecting the island. 
+**Edges** are the lines that represent connection between vertices, you can imagine it this way. A vertex is an island, while vertices are multiple islands, and edges are the bridges connecting the island.
 
 ### Multiple Edges
 
