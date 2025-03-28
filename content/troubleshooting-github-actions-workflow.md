@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting GitHub Actions Failing Workflow
+title: Troubleshooting GitHub Actions Workflow
 draft: false
 tags:
   - git
